@@ -1,0 +1,14 @@
+nav{
+    height: 80px;
+    background-color: blue;
+    padding-top: 25px;
+    display:flex ;
+    text-align: center;
+    justify-content: center;
+}
+nav a{
+    text-decoration: none;
+    color: white;                                                                                                                                                                                               ;
+    font-size: 30px;
+    margin: 20px;
+}
