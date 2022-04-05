@@ -1,4 +1,4 @@
-# **Techno - Educational Website**
+# **Techno - Technology Analysis Website**
 
 **[Netlify Link](https://edumereact.netlify.app/)**
 
