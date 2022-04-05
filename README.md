@@ -1,6 +1,6 @@
 # **Techno - Technology Analysis Website**
 
-**[Netlify Link](https://edumereact.netlify.app/)**
+**[Vercel Link](https://techno-three.vercel.app/)**
 
 # List Of Component
 
