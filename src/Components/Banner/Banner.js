@@ -2,6 +2,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import './Banner.css';
+import image from '../../image/technology.jpg';
 
 const Banner = () => {
   return (
@@ -24,7 +25,7 @@ const Banner = () => {
           </Col>
           <Col md={6}>
               <div className="banner-img">
-                  <img src="https://moryphea.sirv.com/assignment9/hero-1.jpg" alt="" />
+                  <img src={image} alt="" />
               </div>
           </Col>
         </Row>
