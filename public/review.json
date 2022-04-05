@@ -3,42 +3,42 @@
     "id": "624b4beb763a9d1458457e91",
     "img": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "name": "Jodie Richardson",
-    "review": "Technology Review' is a critique of a technology used for teaching and learning.",
+    "content": "Technology content' is a critique of a technology used for teaching and learning.",
     "ratings": 4
   },
   {
     "id": "624b4beb5739e4992dcd236c",
     "img": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "name": "Janna Clarke",
-    "review": " Technology review can be written from the point of viw of first hand experience",
+    "content": " Technology content can be written from the point of viw of first hand experience",
     "ratings": 3
   },
   {
     "id": "624b4beb4e368b07c2a8c213",
     "img": "https://images.pexels.com/photos/1844547/pexels-photo-1844547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "name": "Simone Carlson",
-    "review": " Although you might want consider developing this into a case study.",
+    "content": " Although you might want consider developing this into a case study.",
     "ratings": 6
   },
   {
     "id": "624b4beb83c024fd668c0f9e",
     "img": "https://images.pexels.com/photos/3760324/pexels-photo-3760324.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "name": "Jaime Fowler",
-    "review": " You can gathared the avidence from the leerature.",
+    "content": " You can gathared the avidence from the leerature.",
     "ratings": 4
   },
   {
     "id": "624b4beb63d66f2c0ec27d55",
     "img": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "name": "Rosales Daniel",
-    "review": "Explore the padagogical potential of a tachnological tool.",
+    "content": "Explore the padagogical potential of a tachnological tool.",
     "ratings": 4
   },
   {
     "id": "624b4bebfb97f6de83d28302",
     "img": "https://images.pexels.com/photos/1252246/pexels-photo-1252246.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     "name": "Katina Bradshaw",
-    "review": "A Look at the Research on Computer-Based Technology Use in Second Language Learning",
+    "content": "A Look at the Research on Computer-Based Technology Use in Second Language Learning",
     "ratings": 5
   }
 ]

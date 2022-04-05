@@ -3,10 +3,10 @@ import { FaStar } from "react-icons/fa";
 import "./ReviewItem.css";
 
 const ReviewItem = ({ review }) => {
-  const { name, image, ratings, content } = review;
+  const { name, img, ratings, content } = review;
   return (
     <div className="grid-item">
-      <img src={image} alt="" />
+      <img src={img} alt="" />
       <h3>{name}</h3>
       <p>{content}</p>
       <span>

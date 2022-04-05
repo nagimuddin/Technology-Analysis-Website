@@ -17,9 +17,7 @@ const Review = () => {
               Total Customer Review {reviews.length}
             </h2>
             <div className='grid grid-col-3 gap-50'>
-              {reviews
-                .map((review) => <ReviewItem key={review.id} review={review} />)
-                .slice(0, 3)}
+              {reviews.map((review) => <ReviewItem key={review.id} review={review} />).slice(0, 3)}
             </div>
             <Link className='btn review-btn' to='/reviewtwo'>
               View All Review
