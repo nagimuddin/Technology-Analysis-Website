@@ -11,12 +11,12 @@ const Banner = () => {
         <Row className='align-items-center'>
           <Col md={6}>
             <div className='banner-content'>
-              <h3 className='banner-title'>
-                <span>Access 2700+</span> Online Tutorial From Top Instructor.
-              </h3>
+              <h1 className='banner-title'>
+                Advanced Technology <br />
+                <span>Resplendent nation</span>
+              </h1>
               <p>
-                Meet university,and cultural institutions, who'll share their
-                experience.
+              Technology has given tools and machines to be used to solve problems around the world. 
               </p>
               <Link className='btn' to='/reviewtwo'>
                 View All Review
