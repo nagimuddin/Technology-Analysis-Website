@@ -1,17 +1,30 @@
-import React from 'react';
-import CustomLink from '../CustomLink/CustomLink';
-import './Header.css';
+import React from "react";
+import { Container, Nav, Navbar } from "react-bootstrap";
+import { Link, NavLink } from "react-router-dom";
+
+import "./Header.css";
 
 const Header = () => {
-    return (
-        <nav>
-          <CustomLink to="/">HOME</CustomLink>
-          <CustomLink to="/reviews">REVIEWS</CustomLink>
-          <CustomLink to="/dashboard">DASHBOARD</CustomLink>
-          <CustomLink to="/blogs">BLOGS</CustomLink>
-          <CustomLink to="/about">ABOUT</CustomLink>
-        </nav>
-    );
+  return (
+    <header>
+      <Navbar expand='lg' className='header'>
+        <Container>
+          <Link className='navbar-brand' to='/'>
+            Techno
+          </Link>
+          <Navbar.Toggle aria-controls='basic-navbar-nav' />
+          <Navbar.Collapse id='basic-navbar-nav'>
+            <Nav className='ms-auto'>
+              <NavLink className='nav-link' to='/'>Home</NavLink>
+              <NavLink className='nav-link' to='/reviewtwo'>Review</NavLink>
+              <NavLink className='nav-link' to='/dashboard'>Dashboard</NavLink>
+              <NavLink className='nav-link' to='/blog'>Blog</NavLink>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+    </header>
+  );
 };
 
 export default Header;

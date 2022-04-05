@@ -1,18 +1,21 @@
-.py-200 {
-    padding: 200px 0;
+.grid {
+    display: grid;
 }
 
-.error-area {
-	background: #edeef3;
+.grid-col-3 {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-.error-content {
-	margin-top: 50px;
+.gap-50 {
+    gap: 50px;
 }
 
-.error-item .btn {
+.review-area {
+    padding: 120px 0;
+}
+
+.review-btn.btn {
 	display: inline-block;
-	height: 50px;
 	line-height: 50px;
 	text-align: center;
 	padding: 0 25px;
@@ -21,9 +24,10 @@
 	border-radius: 4px;
 	font-weight: 600;
 	text-transform: capitalize;
+    margin-top: 50px;
 }
 
-.error-item .btn:hover {
+.review-btn.btn:hover {
 	color: #fff;
 	box-shadow: 0 10px 24px 0 rgba(4,23,118,.3);
 }

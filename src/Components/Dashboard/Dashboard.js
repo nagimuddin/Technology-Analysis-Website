@@ -1,10 +1,23 @@
 import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
+import LineBarAreaComposedChart from '../Chart/LineBarAreaComposedChart';
+import SimpleAreaChart from '../Chart/SimpleAreaChart';
+import './Dashboard.css';
 
 const Dashboard = () => {
     return (
-        <div>
-            <h2>Recharts</h2>
-        </div>
+        <section className='dashboard-area'>
+            <Container>
+                <Row>
+                    <Col md={6}>
+                        <SimpleAreaChart />
+                    </Col>
+                    <Col md={6}>
+                        <LineBarAreaComposedChart />
+                    </Col>
+                </Row>
+            </Container>
+        </section>
     );
 };
 

@@ -1,13 +1,13 @@
 import React from 'react';
-import Bennar from '../Bennar/Bennar';
-import Reviews from '../Riviews/Reviews';
+import Banner from '../Banner/Banner';
+import Review from '../Review/Review';
 
 const Home = () => {
     return (
-        <div>
-            <Bennar></Bennar>
-            <Reviews></Reviews>
-        </div>
+        <section className='home-page'>
+            <Banner />
+            <Review />
+        </section>
     );
 };
 
